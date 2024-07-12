@@ -1,0 +1,194 @@
+.home {
+  background-color: rgb(243, 241, 241);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+
+}
+
+.homeOne {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+
+}
+
+@import url('https://fonts.cdnfonts.com/css/gruffly');
+
+.homeh1 {
+  font-family: 'Gruffly', sans-serif;
+  font-size: 75px;
+  margin-bottom: 50px;
+  opacity: 0;
+  animation: fadeUp 1s ease forwards 0.5s;
+  margin-top: 70px;
+
+}
+
+@import url('https://fonts.cdnfonts.com/css/dk-lemon-yellow-sun');
+
+#homeP {
+  color: #393E46;
+  font-family: 'DK Lemon Yellow Sun', sans-serif;
+  font-size: 20px;
+  margin: 5px;
+}
+
+@import url('https://fonts.cdnfonts.com/css/nimbus-sans-l');
+
+.btnOrder {
+  background-color: #E43A19;
+  margin-bottom: 50px;
+  color: aliceblue;
+  font-family: 'Nimbus Sans L', sans-serif;
+  opacity: 0;
+  animation: fadeUp 1s ease forwards 1s;
+}
+
+.btnOrder:hover {
+  background-color: rgb(255, 102, 0);
+  color: aliceblue;
+}
+
+
+.btnBook{
+  background-color: #EF6C35;
+  margin-bottom: 50px;
+  color: aliceblue;
+  font-family: 'Nimbus Sans L', sans-serif;
+  opacity: 0;
+  animation: fadeUp 1s ease forwards 1s;
+
+}
+
+.btnBook:hover {
+  background-color: #E43A19;;
+  color: aliceblue;
+}
+
+
+.imgHome {
+  margin-bottom: 80px;
+  opacity: 0;
+  animation: fadeUp 0.5s ease forwards;
+  margin-top: 70px;
+}
+
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+@media(max-width:991px) {
+
+  .homeh1 {
+    font-size: 65px;
+    margin-left: 10px;
+
+  }
+
+  .imgHome {
+    width: 100%;
+    margin-left: 20px;
+  }
+
+}
+
+@media(max-width:870px) {
+
+  .homeh1 {
+    font-size: 55px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+
+  }
+
+  .imgHome {
+    width: 100%;
+    margin-left: 30px;
+  }
+
+}
+
+
+@media(max-width:854px) {
+
+
+  .homeh1 {
+    font-size: 55px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+
+  }
+
+  .btnOrder,.btnBook {
+    font-size: 13px;
+    margin-bottom: 0px;
+  }
+
+
+  .imgHome {
+    width: 100%;
+    margin-left: 15px;
+
+  }
+
+
+
+}
+
+@media(max-width:767px) {
+
+  .home {
+    height: auto;
+  }
+
+  .homeh1 {
+    font-size: 45px;
+    margin: 0 0 0 30px;
+
+
+  }
+
+#homeP{
+  margin-left: 30px;
+}
+
+  .btnOrder,.btnBook {
+    font-size: 12px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+
+  }
+
+  .imgHome {
+    width: 80%;
+    margin: 100px 0 0 30px;
+
+  }
+
+  .col-sm-12.col-md-6.col-lg-5 {
+    order: 1;
+  }
+
+  .col-sm-12.col-md-6.col-lg-7 {
+    order: 2;
+  }
+
+
+}

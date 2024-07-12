@@ -1,0 +1,51 @@
+#header {
+    transition: all 0.5s;
+    border-bottom: 1px solid #e6f2fb;
+  }
+  
+#header.header-scrolled {
+    border-color: #fff;
+    box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
+  }
+  
+
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: rgba(0, 0, 0, 0.5);    
+    transition: color 0.3s;
+    
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: rgb(3, 3, 3);   
+}
+
+a{
+    /* color:rgb(255, 102, 0); */
+    /* color:rgb(243, 12, 12); */
+    color: #FF5722;   
+}
+
+a:hover{
+    color: rgb(255, 102, 0);
+}
+
+@import url('https://fonts.cdnfonts.com/css/nimbus-sans-l');
+
+.navbar-nav .nav-item .nav-link{
+    /* color:rgb(255, 102, 0); */
+    /* color:rgb(243, 12, 12); */
+    color: rgb(100, 97, 97);   
+    font-family: 'Nimbus Sans L', sans-serif;
+                                                
+}
+
+.nav-item{
+    font-size:larger;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 100px;
+}
+

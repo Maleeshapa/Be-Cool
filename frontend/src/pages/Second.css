@@ -1,0 +1,70 @@
+/* Ensure all elements include padding and border in the element's total width and height */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.Second {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../images/DF3.png');
+  height: 50vh;
+  width: 100%;
+  padding: 100px 0;
+}
+
+.counts {
+  padding: 60px 0;
+  width: 100%;
+  overflow: hidden; /* Ensure no overflow */
+}
+
+.counts .count-box {
+  width: 100%;
+  text-align: center;
+}
+
+.counts .count-box .purecounter {
+  font-size: 48px;
+  line-height: 48px;
+  display: block;
+  font-weight: 700;
+  color: #ff6e0d;
+  margin: 0 auto; /* Ensure centered horizontally */
+}
+
+.counts .count-box p {
+  padding: 8px 0 0 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+
+@media(max-width:986px){
+
+  .Second {
+    
+    height: auto;
+  }
+
+}
+
+/* Remove unnecessary animation keyframes */
+/* #countrow{animation: fadeUp 1s ease forwards 2s;
+}
+
+@keyframes fadeUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+} */

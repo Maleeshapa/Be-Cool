@@ -1,0 +1,46 @@
+
+.dashboard {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+}
+
+.dashboardh1{
+    text-align: center;
+}
+
+.main-content {
+    flex: 1; /* Take remaining space */
+    padding: 20px;
+    /* Add additional styles as needed */
+}
+
+.create-admin-btn {
+    margin-bottom: 20px; /* Adjust margin as needed */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.create-admin-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Add any specific styles for your main content, like table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}

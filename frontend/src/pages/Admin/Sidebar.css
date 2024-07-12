@@ -1,0 +1,28 @@
+.sidebar {
+    width: 200px;
+    background-color: #f0f0f0; /* Grey background */
+    padding: 20px;
+    /* Add additional styles as needed */
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.sidebar ul li a.active {
+    background-color: #007bff; /* Active link background color */
+    color: white; /* Active link text color */
+}
