@@ -10,8 +10,11 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 app.use(cors({
-    origin: 'http://localhost:3000' // Replace with your frontend URL
+    origin: ['http://localhost:3000', 'https://deploy-mern.vercel.app'] // Replace with your frontend URL
+    methods: ["POST","GET"],
+    credentials:true
 }));
+
 
 const uri = process.env.MONGO_URI;
 
