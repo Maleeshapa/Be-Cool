@@ -10,17 +10,12 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 app.use(cors({
-<<<<<<< HEAD
     origin: [
         'http://localhost:3000',
         'http://localhost:3001',
         'https://maleeshapa.github.io/Be-Cool'
       ] // Replace with your frontend URL
-=======
-    origin: ['http://localhost:3000', 'https://be-cool.vercel.app'], // Replace with your frontend URL
-    methods: ["POST","GET"],
-    credentials:true
->>>>>>> b405372da790fb51c5f53caa0df36e1546637f68
+
 }));
 
 
