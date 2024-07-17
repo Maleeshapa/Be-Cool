@@ -17,7 +17,7 @@ const Book = () => {
           <div className="col-lg-4 reservation-img" style={{ backgroundImage: `url(${reservationImage})` }} data-aos="zoom-out" data-aos-delay="100"></div>
 
           <div className="col-lg-8 d-flex align-items-center reservation-form-bg">
-            <form action="forms/book-a-table.php" method="post" role="form" className="php-email-form" data-aos="fade-up" data-aos-delay="100">
+            <form action="" method="post" role="form" className="php-email-form" data-aos="fade-up" data-aos-delay="100">
               <div className="row gy-4">
                 <div className="col-lg-4 col-md-6">
                   <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />

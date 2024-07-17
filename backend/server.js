@@ -10,7 +10,11 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 app.use(cors({
-    origin: 'http://localhost:3000' // Replace with your frontend URL
+    origin: [
+        'http://localhost:3000',
+        'http://localhost:3001',
+        'https://maleeshapa.github.io/Be-Cool'
+      ] // Replace with your frontend URL
 }));
 
 const uri = process.env.MONGO_URI;
